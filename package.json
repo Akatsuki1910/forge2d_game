@@ -1,0 +1,6 @@
+{
+  "name": "forge2d_game",
+  "scripts": {
+    "build": "flutter pub get && flutter build web --base-href='/games/nakamura-ikuto/forge2d_game/' && mkdir -p dist && cp -pR build/web/* dist"
+  }
+}
